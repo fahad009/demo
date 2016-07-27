@@ -1,0 +1,17 @@
+{
+  "name": "node-js-getting-started",
+  "version": "0.2.5",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "socketURL": "/Scalable-Broadcast.html",
+  "socketMessageEvent": "RTCMultiConnection-Message",
+  "socketCustomEvent": "RTCMultiConnection-Custom-Message",
+  "port": "9001",
+  "enableLogs": "true"
+}
