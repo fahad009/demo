@@ -350,9 +350,9 @@
             })();
             var broadcastId = '';
             if (localStorage.getItem(connection.socketMessageEvent)) {
-                broadcastId = “livecam”;
+                broadcastId = localStorage.getItem(connection.socketMessageEvent);
             } else {
-                broadcastId = “livecam”;
+                broadcastId = connection.token();
             }
             document.getElementById('broadcast-id').value = broadcastId;
             document.getElementById('broadcast-id').onkeyup = function() {
